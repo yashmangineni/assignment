@@ -1,7 +1,9 @@
 # Assignment
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
-
+![image alt](https://github.com/yashmangineni/assignment/blob/4de0a02470038ec07f5e76e13c7466ea30a6e28d/Screenshot%202025-04-09%20125927.png)
+![image alt]()
+![image alt]()
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
@@ -27,4 +29,4 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 
-![image alt](https://github.com/yashmangineni/assignment/blob/4de0a02470038ec07f5e76e13c7466ea30a6e28d/Screenshot%202025-04-09%20125927.png)
+
