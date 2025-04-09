@@ -1,0 +1,22 @@
+<div class="cms-container">
+    <h2 class="cms-title">CMS - Update Main Heading</h2>
+  
+    <input
+      [(ngModel)]="heading"
+      placeholder="Enter new heading..."
+      class="cms-input"
+    />
+  
+    <button
+      (click)="updateHeading()"
+      [disabled]="loading"
+      class="cms-button"
+    >
+      {{ loading ? 'Updating...' : 'Update Heading' }}
+    </button>
+  
+    <div *ngIf="successMessage" class="cms-message">
+      ✅ {{ successMessage }}
+    </div>
+  </div>
+  

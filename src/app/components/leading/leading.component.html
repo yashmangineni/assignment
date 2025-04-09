@@ -1,0 +1,18 @@
+<div class="p-8 max-w-4xl mx-auto text-center">
+    <h1 class="text-4xl font-bold mb-4">
+      {{ headingText }}
+    </h1>
+  
+    <p class="text-gray-600 mb-6">
+      This is Company ABC's official website powered by AI-driven solutions.
+      Optimize revenue, marketing, and commercial strategies with our tools.
+    </p>
+  
+    <button (click)="toggleContent()">Get Started</button>
+
+<div *ngIf="showContent" class="dynamic-content">
+  <h2>Welcome to ABC Company!</h2>
+  <p>This is the additional content shown after clicking the button.</p>
+</div>
+
+  

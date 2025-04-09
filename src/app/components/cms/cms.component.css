@@ -1,0 +1,51 @@
+.cms-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px 20px;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+  }
+  
+  .cms-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #1a202c;
+  }
+  
+  .cms-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #cbd5e0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  .cms-button {
+    background-color: #2563eb;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.2s ease;
+  }
+  
+  .cms-button:hover {
+    background-color: #1d4ed8;
+  }
+  
+  .cms-message {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #16a34a;
+    text-align: center;
+  }
+  

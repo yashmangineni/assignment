@@ -1,0 +1,23 @@
+.navbar {
+    background-color: #f7fafc; /* light gray */
+    padding: 16px 24px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #2b6cb0; /* blue */
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: #ebf8ff; /* lighter blue on hover */
+  }
+  
